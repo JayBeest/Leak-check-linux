@@ -1,7 +1,7 @@
 FROM	ubuntu:20.04
 LABEL	maintainer = "jcorneli <jcorneli@student.codam.nl>"
 LABEL 	version="0.1"
-LABEL 	description="This is custom Docker Image for checking C leaks"
+LABEL 	description="This is custom Docker Image for checking C leaks using valgrind"
 
 # Install packages
 RUN		apt-get update && apt-get install -y \
