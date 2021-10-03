@@ -1,4 +1,4 @@
-NAME = ubuntu
+NAME = leak_check 
 
 all:
 	docker build -t $(NAME) .
